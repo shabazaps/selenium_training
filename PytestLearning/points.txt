@@ -1,0 +1,7 @@
+#Every File should Either with test_ or _test
+#All the code should be Under a Method
+#Method should have a meaning so that it is easier to distinguish
+-v: verbose to display
+-s: to display console log
+-k: regex to match certain methods of the file
+@pytest.mark.(mark_word) to mark some special method and run it use -m
